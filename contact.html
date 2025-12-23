@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Location and Contact | Law Office of R. Steven Brown</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<div class="rsb-shell">
+
+  <header class="rsb-header">
+    <div class="rsb-header-inner rsb-container">
+      <div class="rsb-logo-mark">
+        <div class="rsb-logo-monogram">RSB</div>
+        <div class="rsb-logo-subtitle">Law Office of R. Steven Brown</div>
+      </div>
+      <nav class="rsb-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Our Services</a>
+        <a href="attorney-bio.html">Attorney Bio</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html" class="rsb-nav-active">Location & Contact</a>
+      </nav>
+      <a class="rsb-call-now" href="tel:+17073507748">(707) 350-7748</a>
+    </div>
+  </header>
+
+  <main class="rsb-main">
+    <section class="rsb-page-hero">
+      <div class="rsb-page-hero-inner">
+        <h1 class="rsb-page-title">Location and Contact</h1>
+        <p class="rsb-page-subtitle">
+          Reach out to discuss your family law or criminal defense matter. Initial consultations are by appointment.
+        </p>
+      </div>
+    </section>
+
+    <section class="rsb-content">
+      <div class="rsb-contact-grid">
+        <div class="rsb-contact-panel rsb-reveal">
+          <h3>Office information</h3>
+          <p>
+            <strong>Law Office of R. Steven Brown</strong><br />
+            375 S Main Street, Suite 101<br />
+            Lakeport, California 95453
+          </p>
+          <p>
+            Phone:
+            <a href="tel:+17073507748" style="color:var(--rsb-green);">(707) 350-7748</a>
+          </p>
+          <p>
+            Regular hours are Monday through Friday during standard business hours. Meetings outside these times may be
+            available by prior arrangement.
+          </p>
+          <div style="margin-top:1rem;">
+            <div class="rsb-location-map">
+              <iframe
+                src="https://www.google.com/maps?q=375+S+Main+St+Lakeport+CA+95453&output=embed"
+                width="100%"
+                height="260"
+                style="border:0;"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="rsb-contact-panel rsb-reveal">
+          <h3>Send a confidential message</h3>
+          <form class="rsb-contact-form" action="#" method="post">
+            <div class="rsb-field-group">
+              <label class="rsb-field-label" for="name">Name</label>
+              <input class="rsb-field-input" type="text" id="name" name="name" required />
+            </div>
+            <div class="rsb-field-group">
+              <label class="rsb-field-label" for="email">Email</label>
+              <input class="rsb-field-input" type="email" id="email" name="email" required />
+            </div>
+            <div class="rsb-field-group">
+              <label class="rsb-field-label" for="phone">Phone</label>
+              <input class="rsb-field-input" type="tel" id="phone" name="phone" />
+            </div>
+            <div class="rsb-field-group">
+              <label class="rsb-field-label" for="matter">Type of matter</label>
+              <input class="rsb-field-input" type="text" id="matter" name="matter" placeholder="Family law, criminal, or other" />
+            </div>
+            <div class="rsb-field-group">
+              <label class="rsb-field-label" for="message">Brief description</label>
+              <textarea class="rsb-field-textarea" id="message" name="message" placeholder="Please do not include confidential details until you speak with the attorney."></textarea>
+            </div>
+            <button type="submit" class="rsb-btn-primary">Submit message</button>
+            <div style="font-size:0.78rem; color:var(--rsb-muted); margin-top:0.4rem;">
+              Submitting this form does not create an attorney client relationship.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rsb-footer">
+    <div class="rsb-footer-inner">
+      <div>© <span id="rsb-year"></span> Law Office of R. Steven Brown. All rights reserved.</div>
+      <div class="rsb-footer-nav">
+        <a href="services.html">Our Services</a>
+        <a href="attorney-bio.html">Attorney Bio</a>
+        <a href="contact.html">Location & Contact</a>
+      </div>
+    </div>
+  </footer>
+
+</div>
+<script src="assets/js/main.js"></script>
+<script>
+  document.getElementById("rsb-year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
